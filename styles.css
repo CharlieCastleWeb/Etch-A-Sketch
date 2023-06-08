@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputs {
+    width: 20%;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+.display {
+    width: 600px;
+    height: 600px;
+    border: 10px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid black; /* Eliminar los bordes al final*/ 
+}
+
