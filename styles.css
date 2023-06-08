@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -39,6 +40,7 @@ input {
 }
 
 .square {
-    border: 1px solid black; /* Eliminar los bordes al final*/ 
+    border: 1px solid rgb(0, 0, 0, 0.05); 
+    -webkit-user-drag: none;
 }
 
